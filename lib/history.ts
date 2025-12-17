@@ -8,12 +8,12 @@ export function GetHistory() {
     {
       year: "2016",
       description:
-        "Diresmikan dengan nama KEPANG STT Bandung pada tanggal 22 September 2016, yang selanjutnya diperingati sebagai hari jadi KEPANG UTB.",
+        "Diresmikan dengan nama KEPANG STT Bandung pada tanggal 22 September 2016, yang selanjutnya diperingati sebagai hari jadi KEPANG STT Bandung.",
     },
     {
       year: "2024",
       description:
-        "Bertransformasi menjadi nama KEPANG UTB pada tanggal 24 Maret 2024",
+        "KEPANG STT Bandung resmi bertransformasi menjadi nama KEPANG UTB pada tanggal 24 Maret 2024",
     },
   ];
 }

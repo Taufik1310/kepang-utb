@@ -101,7 +101,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} dark flex min-h-screen min-w-screen flex-col justify-between overflow-x-hidden overflow-y-auto antialiased`}
+        className={`${inter.className} dark flex min-h-screen min-w-screen flex-col justify-between overflow-x-hidden overflow-y-auto bg-black antialiased`}
       >
         <Navbar />
         {children}

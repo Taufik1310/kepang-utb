@@ -46,7 +46,7 @@ export default function MerchCatalogProductCard({
       </div>
 
       <div className="flex flex-col items-start gap-2 p-4">
-        <Typography size="regular" weight="medium" text={name} />
+        <Typography size="large" weight="medium" text={name} />
 
         {!disabled ? (
           <div className="flex items-center gap-2">

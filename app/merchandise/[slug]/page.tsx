@@ -68,7 +68,7 @@ export default function MerchProductDetail({
             text={IDRFormat(product.price)}
           />
           <Typography
-            size="large"
+            size="regular"
             weight="regular"
             text={IDRFormat(product.price * 2)}
             className="text-zinc-400 line-through"

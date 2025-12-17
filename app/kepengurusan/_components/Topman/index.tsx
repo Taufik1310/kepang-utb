@@ -4,7 +4,7 @@ import ManagementTopmanSecretary from "./Secretary";
 
 export default function ManagementTopman() {
   return (
-    <section className="mt-32 flex flex-col items-center justify-center px-6 md:px-24 lg:px-32">
+    <section className="mt-4 flex flex-col items-center justify-center px-6 md:mt-20 md:px-24 lg:px-32">
       <Typography
         animate
         size="title"

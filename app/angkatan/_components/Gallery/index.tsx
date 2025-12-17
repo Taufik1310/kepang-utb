@@ -9,7 +9,7 @@ const GENERATIONS = GetAllGeneration();
 
 export default function GenerationGallery() {
   return (
-    <section className="mt-24 flex flex-col items-center justify-center px-6 md:px-24 lg:px-32">
+    <section className="mt-4 flex flex-col items-center justify-center px-6 md:mt-20 md:px-24 lg:px-32">
       <div className="grid w-full grid-cols-1 gap-12">
         {GENERATIONS.map((generation, index) => (
           <motion.div

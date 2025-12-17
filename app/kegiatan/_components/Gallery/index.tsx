@@ -18,7 +18,7 @@ export default function ActivityGallery() {
   const filteredActivities = category === "event" ? EVENTS : PROGRAMS;
 
   return (
-    <section className="mt-12 flex flex-col items-center justify-center px-6 md:px-24 lg:px-32">
+    <section className="mt-4 flex flex-col items-center justify-center px-6 md:mt-20 md:px-24 lg:px-32">
       <ActivityGalleryFilter onChange={setCategory} />
       <div className="mt-12 grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {filteredActivities.map((item, index) => (
