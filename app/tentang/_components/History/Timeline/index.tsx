@@ -52,7 +52,7 @@ export default function AboutHistoryTimeline() {
                   className="z-10 flex aspect-square items-center justify-center rounded-full bg-black/20 p-3"
                 />
 
-                {(index + 1) % 2 == 1 && (
+                {index !== HISTORIES.length - 1 && (
                   <div className="absolute top-8 left-1/2 h-[90%] w-0.5 -translate-x-1/2 bg-linear-to-b from-transparent via-white to-transparent" />
                 )}
               </div>
