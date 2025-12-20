@@ -18,16 +18,16 @@ export default function MerchCatalogProductCard({
       whileInView={{ opacity: 1, translateY: 0 }}
       viewport={{ once: false }}
       transition={{ duration: 1 }}
-      className={disabled ? "cursor-not-allowed" : ""}
+      className={`${disabled ? "cursor-not-allowed" : ""} rounded shadow-[0_8px_30px_rgba(255,255,255,0.2)]`}
     >
-      <div className="group relative aspect-square w-full overflow-hidden rounded-lg">
+      <div className="group relative aspect-square w-full overflow-hidden rounded">
         {pics?.map((pic, index) => (
           <Image
             key={index}
             src={pic}
             alt={`Foto Produk ${index + 1}`}
             fill
-            className={`rounded-lg object-cover transition-all duration-1000 ease-in-out ${
+            className={`rounded object-cover transition-all duration-1000 ease-in-out ${
               index === 0
                 ? "group-hover:opacity-0"
                 : "opacity-0 group-hover:opacity-100"

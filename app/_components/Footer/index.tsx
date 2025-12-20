@@ -16,16 +16,6 @@ const AUTHOR = GetAuthorInfo();
 export default function Footer() {
   return (
     <footer className="relative mt-32 w-full overflow-hidden px-6 pt-8 text-zinc-50 md:px-16 lg:px-24 xl:px-32">
-      <div className="absolute -bottom-50 -left-20 h-full w-full opacity-10 md:-bottom-20 md:-left-60 lg:-bottom-10 lg:left-140">
-        <Image
-          src="/assets/images/logo/vector-logo.png"
-          alt="Logo Kepang"
-          fill
-          className="object-contain invert"
-          loading="eager"
-        />
-      </div>
-
       <div className="flex w-full flex-col gap-10 border-b border-gray-500/30 pb-6 md:flex-row md:justify-between">
         <div className="flex flex-col items-center gap-4 md:max-w-96">
           <Link href="/" className="transform transition duration-300">
@@ -127,6 +117,16 @@ export default function Footer() {
           size="small"
           weight="medium"
           text={`Hak Cipta Dilindungi`}
+        />
+      </div>
+
+      <div className="absolute -bottom-50 -left-20 -z-5 h-full w-full opacity-10 md:-bottom-20 md:-left-60 lg:-bottom-10 lg:left-140">
+        <Image
+          src="/assets/images/logo/vector-logo.png"
+          alt="Logo Kepang"
+          fill
+          className="object-contain invert"
+          loading="eager"
         />
       </div>
     </footer>
