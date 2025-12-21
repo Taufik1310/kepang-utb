@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomeHeroContent() {
   return (
-    <div className="absolute bottom-10 w-full max-w-6xl px-6 py-20 text-center text-zinc-50 md:bottom-0 md:px-0">
+    <div className="absolute top-1/2 left-1/2 w-full max-w-6xl -translate-x-1/2 -translate-y-1/2 px-6 text-center text-zinc-50 md:px-0">
       <Typography
         animate
         size="insight"

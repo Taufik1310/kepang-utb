@@ -1,7 +1,7 @@
 const PRODUCTS = [
   {
     id: "pdh-kepang",
-    name: "Pakaian Dinas Harian (PDH) KEPANG",
+    name: "Pakaian Dinas Harian (PDH) KEPANG + LANYARD + ID CARD",
     price: 150000,
     availability: "available",
     description: "Pakaian Dinas Harian (PDH) resmi untuk pengurus KEPANG UTB.",
